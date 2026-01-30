@@ -1,0 +1,3 @@
+curl -X POST http://localhost:6000/push ^
+  -H "Content-Type: application/json" ^
+  -d "{\"level\":\"high\",\"bin_id\":\"bin-1\"}"
